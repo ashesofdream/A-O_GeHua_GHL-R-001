@@ -15,4 +15,6 @@
 
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+git clone https://github.com/hyy-666/luci-app-qBittorrent-enhanced package/luci-app-qBittorrent-enhanced
+git clone https://github.com/ashesofdream/qBEE package/qBEE
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
